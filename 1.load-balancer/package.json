@@ -1,0 +1,20 @@
+{
+  "name": "lb-demo-next-static",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "serve:static": "npx serve out"
+  },
+  "dependencies": {
+    "next": "^16.3.5",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "eslint": "9.35.0",
+    "eslint-config-next": "^16.3.5"
+  }
+}

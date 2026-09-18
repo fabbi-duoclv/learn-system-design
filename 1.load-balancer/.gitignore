@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Env / secrets
+.env
+.env.*
+
+# Docker local overrides
+docker-compose.override.yml
+
+# Logs
+*.log
+
+# Next.js
+.next/
+out/
+node_modules/
